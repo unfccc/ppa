@@ -1,0 +1,893 @@
+Package: libapache2-mod-php
+Source: php-defaults (96+ubuntu20.04.1+deb.sury.org+1)
+Version: 2:8.4+96+ubuntu20.04.1+deb.sury.org+1
+Architecture: all
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 38
+Depends: libapache2-mod-php8.4
+Filename: ./libapache2-mod-php_2%3a8.4+96+ubuntu20.04.1+deb.sury.org+1_all.deb
+Size: 7804
+MD5sum: 47ec0de05e644a2c5ff00b912290d4fd
+SHA1: db00ef9e328056c8ffdff9aad74be844f358994a
+SHA256: 46ad74db86c06fe672dbea196a8abdf095f6d98665593ab4f6b621cec9f09d71
+Section: php
+Priority: optional
+Description: server-side, HTML-embedded scripting language (Apache 2 module) (default)
+ This package provides the PHP module for the Apache 2 webserver.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ This package is a dependency package, which depends on latest stable
+ PHP version (currently 8.4).
+
+Package: libapache2-mod-php8.1
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 5322
+Depends: media-types | mime-support, php8.1-cli, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), php8.1-opcache, tzdata, ucf, apache2-api-20120211, apache2-bin, libargon2-1 (>= 0~20171227), libc6 (>= 2.29), libpcre2-8-0 (>= 10.38), libsodium23 (>= 1.0.18), libssl1.1 (>= 1.1.1), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Recommends: apache2
+Suggests: php-pear
+Provides: libapache2-mod-php, php-json, php8.1-json, phpapi-20210902
+Filename: ./libapache2-mod-php8.1_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 1613456
+MD5sum: e214de0c85c5b14ee45f879d15b5498e
+SHA1: fa508325e315626acbe5c61c69c78d8d7ad74091
+SHA256: 8f3b8b43148eb68bdb65ccfc9427b2f23f17ca3760619505b4a12816d7e64d69
+Section: httpd
+Priority: optional
+Homepage: http://www.php.net/
+Description: server-side, HTML-embedded scripting language (Apache 2 module)
+ This package provides the PHP module for the Apache 2 webserver (as
+ found in the apache2-mpm-prefork package).  Please note that this package
+ ONLY works with Apache's prefork MPM, as it is not compiled thread-safe.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: libapache2-mod-php8.4
+Source: php8.4
+Version: 8.4.7-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 5746
+Depends: media-types | mime-support, php8.4-cli, php8.4-common (= 8.4.7-1+ubuntu20.04.1+deb.sury.org+1), php8.4-opcache, tzdata, ucf, apache2-api-20120211, apache2-bin, libargon2-1 (>= 0~20171227), libc6 (>= 2.30), libpcre2-8-0 (>= 10.38), libsodium23 (>= 1.0.18), libssl1.1 (>= 1.1.1), libxml2 (>= 2.9.4), zlib1g (>= 1:1.1.4)
+Recommends: apache2
+Suggests: php-pear
+Provides: libapache2-mod-php, php-json, php8.4-json, phpapi-20240924
+Filename: ./libapache2-mod-php8.4_8.4.7-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 1747524
+MD5sum: 7eb357a3eebc08924608195072363c77
+SHA1: 9576a1ea9fb91f6871bed91af2f1bdd0bf80b52d
+SHA256: 4acb5cb913fb7577ff3b802ec0406b4464b7d4108d0c7e83e79c1bbffc8b37b6
+Section: httpd
+Priority: optional
+Homepage: http://www.php.net/
+Description: server-side, HTML-embedded scripting language (Apache 2 module)
+ This package provides the PHP module for the Apache 2 webserver (as
+ found in the apache2-mpm-prefork package).  Please note that this package
+ ONLY works with Apache's prefork MPM, as it is not compiled thread-safe.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcre random Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: libargon2-1
+Source: argon2
+Version: 0~20190702-0.1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Luca Bruno <lucab@debian.org>
+Installed-Size: 56
+Depends: libc6 (>= 2.25)
+Filename: ./libargon2-1_0~20190702-0.1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 19492
+MD5sum: e84576d526d02cc15ac9cf294e92fcb0
+SHA1: 3945c299574c2ec0fa3394793dd274ca8d26ecb6
+SHA256: e4ba8f63ea82b1db7d74426f22dcb9362ba556bf408232cd697f7bc429458b08
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description: memory-hard hashing function - runtime library
+ Argon2 is a password-hashing function that can be used to hash passwords
+ for credential storage, key derivation, or other applications.
+ .
+ There are two main versions of Argon2: Argon2i and Argon2d.
+ Argon2i is the safest against side-channel attacks, while Argon2d provides
+ the highest resistance against GPU cracking attacks.
+ .
+ Argon2i and Argon2d are parametrized by:
+  * A time cost, which defines the amount of computation realized and
+    therefore the execution time, given in number of iterations
+  * A memory cost, which defines the memory usage, given in kibibytes
+  * A parallelism degree, which defines the number of parallel threads
+ .
+ This package includes the dynamic library against which programs are linked.
+
+Package: libgd3
+Source: libgd2
+Version: 2.3.3-13+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: GD Team <team+gd@tracker.debian.org>
+Installed-Size: 457
+Depends: libc6 (>= 2.29), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libimagequant0 (>= 2.11.10), libjpeg8 (>= 8c), libpng16-16 (>= 1.6.2-1), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libxpm4
+Suggests: libgd-tools
+Filename: ./libgd3_2.3.3-13+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 133048
+MD5sum: 3c9613f4fe13b67e2833926696325dca
+SHA1: 6fea915e2a957985a0c0909b5d7a42217ae86d89
+SHA256: 9694dca56d6c75f7da767ab5a7e51b261113e2675ef52ea1e924f0f6c8a1e0e7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.libgd.org/
+Description: GD Graphics Library
+ GD is a graphics library. It allows your code to quickly draw images
+ complete with lines, arcs, text, multiple colours, cut and paste from
+ other images, flood fills, and write out the result as a PNG file.
+ This is particularly useful in World Wide Web applications, where PNG is
+ one of the formats accepted for inline images by most browsers.
+ .
+ This is the runtime package of the library.
+
+Package: libidn2-0
+Source: libidn2
+Version: 2.3.0-1+ubuntu20.04.1+deb.sury.org+2
+Architecture: amd64
+Maintainer: Debian Libidn team <help-libidn@gnu.org>
+Installed-Size: 288
+Depends: libc6 (>= 2.14), libunistring2 (>= 0.9.7)
+Filename: ./libidn2-0_2.3.0-1+ubuntu20.04.1+deb.sury.org+2_amd64.deb
+Size: 68720
+MD5sum: c9186d1e50b551b34c5676b6606bcbe7
+SHA1: 2c10875ae7bcf5cab3abb0186b8d427015be66df
+SHA256: 42e6d9df6b4b9482b2348bfc5053673de0b4ab479c9d9bf4d83c1b3b92952a37
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Internationalized domain names (IDNA2008/TR46) library
+ Libidn2 implements the revised algorithm for internationalized domain
+ names called IDNA2008/TR46.
+ .
+ This package contains runtime libraries.
+
+Package: libpcre2-16-0
+Source: pcre2
+Version: 10.42-3+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 567
+Depends: libc6 (>= 2.14)
+Filename: ./libpcre2-16-0_10.42-3+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 189992
+MD5sum: dea8cf211e7ec69cc029ba83852cf830
+SHA1: 37bb05577e774811d246a34e1727a1eb4b912b35
+SHA256: f461a45cf978fdb6544d1a5302c36249cfd6b21e489e2a6983dae9585ea8c00a
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pcre.org/
+Description: New Perl Compatible Regular Expression Library - 16 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 16 bit runtime library, which operates on
+ UTF-16 input.
+
+Package: libpcre2-32-0
+Source: pcre2
+Version: 10.42-3+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 543
+Depends: libc6 (>= 2.14)
+Filename: ./libpcre2-32-0_10.42-3+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 179452
+MD5sum: 3b81b94b8d1244e54d019c8c28586932
+SHA1: 2097d764c606c5b8da8c17c7b4600d99f8aa1e9a
+SHA256: d7e1eb1a3a0a284a2b6a077df7206e5952eadea40857612a7657c9a86906820a
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pcre.org/
+Description: New Perl Compatible Regular Expression Library - 32 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 32 bit runtime library, which operates on
+ UTF-32 input.
+
+Package: libpcre2-8-0
+Source: pcre2
+Version: 10.42-3+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 628
+Depends: libc6 (>= 2.14)
+Filename: ./libpcre2-8-0_10.42-3+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 207620
+MD5sum: 8b85f45a61c5e77493c64b9b746a3217
+SHA1: 4e76558029ad0509182dfe6a6fbe9a25e3c95a59
+SHA256: efee5c0d7e441d68bc6d85611af8c568ca1a810cd8fe39a5f794ea14601ff4f7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pcre.org/
+Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 8 bit runtime library, which operates on
+ ASCII and UTF-8 input.
+
+Package: libpcre2-dev
+Source: pcre2
+Version: 10.42-3+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 2604
+Depends: libc-dev, libpcre2-8-0 (= 10.42-3+ubuntu20.04.1+deb.sury.org+1), libpcre2-16-0 (= 10.42-3+ubuntu20.04.1+deb.sury.org+1), libpcre2-32-0 (= 10.42-3+ubuntu20.04.1+deb.sury.org+1), libpcre2-posix3 (= 10.42-3+ubuntu20.04.1+deb.sury.org+1)
+Conflicts: libpcre3-dev (<< 2:8.35-8)
+Filename: ./libpcre2-dev_10.42-3+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 694312
+MD5sum: 53d03a70537f7e34dd4fb0047ff7a031
+SHA1: 2404cfadb83f0fa08035c743283691dbb70ef892
+SHA256: 515687d2758c188c3474d40bb7f8b4f5c2333decc4e7d472aee348499dd47e57
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://pcre.org/
+Description: New Perl Compatible Regular Expression Library - development files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the development files, including headers,
+ static libraries, and documentation.
+
+Package: libpcre2-posix3
+Source: pcre2
+Version: 10.42-3+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 37
+Depends: libc6 (>= 2.4), libpcre2-8-0 (>= 10.22)
+Conflicts: libpcre2-posix0, libpcre2-posix2 (>= 10.39)
+Replaces: libpcre2-posix0
+Filename: ./libpcre2-posix3_10.42-3+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 8856
+MD5sum: f771219ff42cb4c34a788d3dd37dc81c
+SHA1: 1ce517a6a815e80f35d83447ef62acd36c6f568e
+SHA256: 8f3188f05dbe0ed26853951346a0da47fec43b7173196bda458ed9b6f6ef54a8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pcre.org/
+Description: New Perl Compatible Regular Expression Library - posix-compatible runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the runtime library for the posix-compatible API.
+
+Package: libpcre3
+Source: pcre3
+Version: 2:8.45-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Perl 5 Compatible Regular Expression Library <pcre3@packages.debian.org>
+Installed-Size: 567
+Depends: libc6 (>= 2.14)
+Filename: ./libpcre3_2%3a8.45-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 240464
+MD5sum: 2889fbdfa1fce7478824f85cfa72fbef
+SHA1: 6145a4b0a233d1ff1db2fb12149a23c9c3b22de4
+SHA256: ca93918710824086de4bfc7d0e2ec082d8d626cb5d6e5008772649f39941f85b
+Section: libs
+Priority: important
+Multi-Arch: same
+Description: Perl 5 Compatible Regular Expression Library - runtime files
+ This is a library of functions to support regular expressions whose syntax
+ and semantics are as close as possible to those of the Perl 5 language.
+ .
+ This package contains the runtime libraries.
+
+Package: libxml2
+Version: 2.9.14+dfsg-0.1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 1927
+Depends: libc6 (>= 2.29), libicu66 (>= 66.1-1~), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
+Filename: ./libxml2_2.9.14+dfsg-0.1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 714492
+MD5sum: 1d02e31b721f6e9a5c3f22fed6b8d7bd
+SHA1: 787dba14a9708124a7a7899de08e45a29a06eec6
+SHA256: 6758d2439613f1dc208998b59bff83066170e9fe795fe55ef7d08ca9d2ab35ff
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://xmlsoft.org
+Description: GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides a library providing an extensive API to handle
+ such XML data files.
+
+Package: libzip4
+Source: libzip
+Version: 1.7.3-1+ubuntu20.04.1+deb.sury.org+2
+Architecture: amd64
+Maintainer: Stefan Schörghofer <amd1212@4md.gr>
+Installed-Size: 145
+Depends: libbz2-1.0, libc6 (>= 2.14), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.1.4)
+Filename: ./libzip4_1.7.3-1+ubuntu20.04.1+deb.sury.org+2_amd64.deb
+Size: 55132
+MD5sum: 4ed83eaa7b6dd3a560605dcc41ee64b0
+SHA1: cd68e0971ec7c26765a4a536fabd42f44173420c
+SHA256: 31b2eb057656a36dda28c3a8bf86300eb622f99064b9317499f7bb00cae7496d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libzip.org
+Description: library for reading, creating, and modifying zip archives (runtime)
+ libzip is a C library for reading, creating, and modifying zip archives. Files
+ can be added from data buffers, files, or compressed data copied directly from
+ other zip archives. Changes made without closing the archive can be reverted.
+ .
+ This package contains the files necessary for running applications that
+ use the libzip library.
+
+Package: libzstd1
+Source: libzstd
+Version: 1.4.8+dfsg-2+ubuntu20.04.1+deb.sury.org+4
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 946
+Depends: libc6 (>= 2.14)
+Filename: ./libzstd1_1.4.8+dfsg-2+ubuntu20.04.1+deb.sury.org+4_amd64.deb
+Size: 317764
+MD5sum: 937e7d9f5469efe0386eb33c62822b3a
+SHA1: be6d877beef8e8d2770dbbaf59bcdb9a1a1e251d
+SHA256: 394bbd39fb890b68deb04532cfe4f803e63d57cb974d167d136a98f77aacbd81
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/facebook/zstd
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the shared library.
+
+Package: php
+Source: php-defaults (96+ubuntu20.04.1+deb.sury.org+1)
+Version: 2:8.4+96+ubuntu20.04.1+deb.sury.org+1
+Architecture: all
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 14
+Depends: php8.4
+Filename: ./php_2%3a8.4+96+ubuntu20.04.1+deb.sury.org+1_all.deb
+Size: 7584
+MD5sum: f6f4f300f54a61244aa6577febcfc54e
+SHA1: 6e0af998069de24274844a7cbc0ff28c46ecf215
+SHA256: a1692abb223916d3dfa05587fd3d812aceec044014467133cd5ff405d4e23bf1
+Section: php
+Priority: optional
+Description: server-side, HTML-embedded scripting language (default)
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ This package is a dependency package, which depends on latest stable
+ PHP version (currently 8.4).
+
+Package: php-common
+Source: php-defaults (96+ubuntu20.04.1+deb.sury.org+1)
+Version: 2:96+ubuntu20.04.1+deb.sury.org+1
+Architecture: all
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 76
+Depends: psmisc (>= 22.15-1~)
+Filename: ./php-common_2%3a96+ubuntu20.04.1+deb.sury.org+1_all.deb
+Size: 16600
+MD5sum: 16b4439e51fd38ec906ca9d03fd4be4d
+SHA1: 9b93694181c2442e8a6b2cd8784293318389f6e7
+SHA256: b12d397bc7ac325d0ab362a4550108ad64db999f07a589e0ad9fbc4e1522eabe
+Section: php
+Priority: optional
+Multi-Arch: foreign
+Description: Common files for PHP packages
+ This package contains common utilities shared among all packaged PHP
+ versions.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php-pear
+Version: 1:1.10.16+submodules+notgz-2+ubuntu20.04.1+deb.sury.org+1
+Architecture: all
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 2088
+Depends: php-xml
+Provides: php-archive-tar, php-console-getopt, php-structures-graph, php-xml-util
+Filename: ./php-pear_1%3a1.10.16+submodules+notgz-2+ubuntu20.04.1+deb.sury.org+1_all.deb
+Size: 290680
+MD5sum: a963e98283178999c00f38fe1d753119
+SHA1: 376c70ec8d7ba0abb6740f253a46bbd8df2b628d
+SHA256: 01433c55378c8f6a80f78e1332e116a83b6110f203248b7533b5efc0ed70d295
+Section: php
+Priority: optional
+Homepage: https://pear.php.net/package/PEAR
+Description: PEAR Base System
+ The PEAR package contains:
+  * the PEAR installer, for creating, distributing
+ and installing packages
+  * the PEAR_Exception PHP5 error handling mechanism
+  * the PEAR_ErrorStack advanced error handling mechanism
+  * the PEAR_Error error handling mechanism
+  * the OS_Guess class for retrieving info about the OS
+ where PHP is running on
+  * the System class for quick handling of common operations
+ with files and directories
+  * the PEAR base class
+ Features in a nutshell:
+  * full support for channels
+  * pre-download dependency validation
+  * new package.xml 2.0 format allows tremendous flexibility while maintaining
+ BC
+  * support for optional dependency groups and limited support for
+ sub-packaging
+  * robust dependency support
+  * full dependency validation on uninstall
+  * remote install for hosts with only ftp access - no more problems with
+ restricted host installation
+  * full support for mirroring
+  * support for bundling several packages into a single tarball
+  * support for static dependencies on a url-based package
+  * support for custom file roles and installation tasks
+
+Package: php8.1-cli
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 5506
+Depends: libedit2 (>= 2.11-20080614-4), media-types | mime-support, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), php8.1-opcache, php8.1-readline, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.29), libpcre2-8-0 (>= 10.38), libsodium23 (>= 1.0.18), libssl1.1 (>= 1.1.1), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Suggests: php-pear
+Provides: php-cli, php-json, php8.1-json, phpapi-20210902
+Filename: ./php8.1-cli_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 1678156
+MD5sum: d101aa563d9ec5cf1faeb75c10a9d860
+SHA1: a22b429560c21f9e1b4d96ec8bc6904773df3381
+SHA256: d950c300eb8eccf50c8e38469441147ed7aa7b860d312786560fcd7c92b00351
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: command-line interpreter for the PHP scripting language
+ This package provides the /usr/bin/php8.1 command interpreter, useful for
+ testing PHP scripts from a shell or performing general shell scripting tasks.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcntl pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-common
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 8464
+Depends: php-common (>= 1:81~), ucf, libc6 (>= 2.27), libffi7 (>= 3.3~20180313), libssl1.1 (>= 1.1.0)
+Breaks: gforge-common (<< 6), php7.0-curl (<< 7.0.33-1~), php7.2-sodium (<< 7.2.12~)
+Provides: php-calendar, php-ctype, php-exif, php-ffi, php-fileinfo, php-ftp, php-iconv, php-pdo, php-phar, php-posix, php-shmop, php-sockets, php-sysvmsg, php-sysvsem, php-sysvshm, php-tokenizer, php8.1-calendar, php8.1-ctype, php8.1-exif, php8.1-ffi, php8.1-fileinfo, php8.1-ftp, php8.1-gettext, php8.1-iconv, php8.1-pdo, php8.1-phar, php8.1-posix, php8.1-shmop, php8.1-sockets, php8.1-sysvmsg, php8.1-sysvsem, php8.1-sysvshm, php8.1-tokenizer
+Filename: ./php8.1-common_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 680464
+MD5sum: f58e201bb9cb83241211cb8a96200b3d
+SHA1: dc0a5048c4dd28da4f9f59c94498bc53f69dabbf
+SHA256: c1c7dff2a75cfcd6d4e2b9fedb834ed8fa052f1220959520af59ba28a689ffd2
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: documentation, examples and common module for PHP
+ This package provides the documentation, examples and common module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-curl
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 148
+Depends: php-common (>= 1:81~), ucf, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.14), libcurl4 (>= 7.56.1)
+Breaks: php7.0-curl (<< 7.0.33-1~)
+Provides: php-curl
+Filename: ./php8.1-curl_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 33660
+MD5sum: f7cbada134b34a7b6b97a369c4499bc5
+SHA1: 48ef5d15993845db019f21def85a3c37087c62ed
+SHA256: 713edf8b3802fb90829f1de2ffb8a097142c8216ea20423bc7708d073c52e3cc
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: CURL module for PHP
+ This package provides the CURL module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-dev
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 5237
+Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre2-dev (>= 10.30), libssl-dev, php8.1-cli (>= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), pkg-config, shtool, libtool (>= 2.4.6-0.1~)
+Recommends: pkg-php-tools
+Suggests: dh-php
+Filename: ./php8.1-dev_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 489656
+MD5sum: a58f16c2962eefae6e0d7d94337a365a
+SHA1: 8661fa83dfe5abfabf6483cc7835426d563bdbbe
+SHA256: ac9ad7daaf9f02bcce322b4413fcd3383178db4ee00dd65ce5ad94a1b724e11b
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: Files for PHP8.1 module development
+ This package provides the files from the PHP8.1 source needed for compiling
+ additional modules.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-fpm
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 5537
+Depends: media-types | mime-support, php8.1-cli, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), php8.1-opcache, procps, systemd | systemd-tmpfiles, tzdata, ucf, libacl1 (>= 2.2.23), libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libc6 (>= 2.29), libpcre2-8-0 (>= 10.38), libsodium23 (>= 1.0.18), libssl1.1 (>= 1.1.1), libsystemd0, libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Suggests: php-pear
+Provides: php-fpm, php-json, php8.1-json, phpapi-20210902
+Filename: ./php8.1-fpm_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 1686920
+MD5sum: b8e73cdda18325cbdc5d7f9c199a7850
+SHA1: f77c2a04363860be11e84ac46ad60bd3bf14e2e1
+SHA256: 5ce77daef1adb39579973f17bf7d6d3743938999afce009a84030fe3df6576dd
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: server-side, HTML-embedded scripting language (FPM-CGI binary)
+ This package provides the Fast Process Manager interpreter that runs
+ as a daemon and receives Fast/CGI requests.  Note that MOST Apache users
+ probably want the libapache2-mod-php8.1 package.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-gd
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 140
+Depends: php-common (>= 1:81~), ucf, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.4), libgd3 (>= 2.3.3)
+Provides: php-gd
+Filename: ./php8.1-gd_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 28544
+MD5sum: 0f8a4b0cb2760de3947435c6043662e8
+SHA1: 4755bcb5bb6dc123b3b529c41af07f2c93d3cf70
+SHA256: b93eddec0b68819686b9bc0c2154138e369778b32f5a82b87ad3b30656a31835
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: GD module for PHP
+ This package provides the GD module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-mbstring
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 1070
+Depends: php-common (>= 1:81~), ucf, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.14), libonig5 (>= 6.8.1)
+Provides: php-mbstring
+Filename: ./php8.1-mbstring_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 393632
+MD5sum: 0f64ea72bd17b5bbfd8409822457f463
+SHA1: 483d5b1cdc7cb78781daac3d66836014bdd711a8
+SHA256: def303d451d60fd88b4f3d6289cddcb990fd20d1da28519f00feb19d61e5ab10
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: MBSTRING module for PHP
+ This package provides the MBSTRING module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-mysql
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 459
+Depends: php-common (>= 1:81~), ucf, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.15)
+Provides: php-mysqli, php-mysqlnd, php-pdo-mysql, php8.1-mysqli, php8.1-mysqlnd, php8.1-pdo-mysql
+Filename: ./php8.1-mysql_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 117060
+MD5sum: 1ab518fd8b09f077aa2c50e71394ea7f
+SHA1: 2aa1a4875797284d23d0c5eba9e5a540281af0e4
+SHA256: 4f5637a9d143c2c15a73a2fb25209525bb532fc72d89263dc59e5df6b3cb48fc
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: MySQL module for PHP
+ This package provides the MySQL module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-opcache
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 1029
+Depends: php-common (>= 1:81~), ucf, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.27), libgcc-s1 (>= 3.3)
+Provides: php-opcache
+Filename: ./php8.1-opcache_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 338008
+MD5sum: f680af94041f25da5d7542441688b716
+SHA1: adad1da090bbad069a8f0aaf780f2805c30516dd
+SHA256: a6fdd663ca5e9858907df1d4ddabe1ffdbeaf868903c069cd1a7700c6f28d8c2
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: Zend OpCache module for PHP
+ This package provides the Zend OpCache module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-readline
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 68
+Depends: php-common (>= 1:81~), ucf, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.14), libedit2 (>= 3.1-20160903-0)
+Provides: php-readline
+Filename: ./php8.1-readline_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 12796
+MD5sum: fd4cf8aa93fab495a7d04ff0fbc0cabc
+SHA1: 793338075cd0117fb3df4e328b620d41e5d5de2f
+SHA256: 2167f7a7e0ed1dcdf03686c2792ac76c1d47df04297fc90c8e18de4863cb70a6
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: readline module for PHP
+ This package provides the readline module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-xml
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 481
+Depends: php-common (>= 1:81~), ucf, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.14), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.25)
+Breaks: php8.1-xsl (<< 7.0.3-6~)
+Replaces: php8.1-xsl (<< 7.0.3-6~)
+Provides: php-dom, php-simplexml, php-xml, php-xmlreader, php-xmlwriter, php-xsl, php8.1-dom, php8.1-simplexml, php8.1-xmlreader, php8.1-xmlwriter, php8.1-xsl
+Filename: ./php8.1-xml_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 109508
+MD5sum: 7722cbb24d1faebffe55b88c74133945
+SHA1: d65e3ade5df191464bf3979246c92fe75441b6bd
+SHA256: 26f4c7c04bbcc6b83e10d82d773f609a8ed1bfaead1b47b6134e0b14fc657db4
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: DOM, SimpleXML, XML, and XSL module for PHP
+ This package provides the DOM, SimpleXML, XML, and XSL module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.1-zip
+Source: php8.1
+Version: 8.1.32-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 112
+Depends: php-common (>= 1:81~), ucf, php8.1-common (= 8.1.32-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.27), libzip4 (>= 1.7.0)
+Provides: php-zip
+Filename: ./php8.1-zip_8.1.32-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 24232
+MD5sum: cea8ad009fa541217a71ba5d1056b436
+SHA1: 6c6c12a97a940b5aece20c7accc296a076974527
+SHA256: 64ba5db9cd4998bcfc85e89c15a5a52269c5a359ab68b2efa11db192232c926f
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: Zip module for PHP
+ This package provides the Zip module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.4
+Version: 8.4.7-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: all
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 71
+Depends: libapache2-mod-php8.4 | php8.4-fpm | php8.4-cgi, php8.4-common
+Provides: php
+Filename: ./php8.4_8.4.7-1+ubuntu20.04.1+deb.sury.org+1_all.deb
+Size: 37408
+MD5sum: b5dc2c01d6451be63eb5a1bd97a8efa7
+SHA1: b983570ab1b05d19d35c38dc8f29da5e17ca965d
+SHA256: e56d4aac715cb8a4a65c41e8f123673cbdfddeea28f22b99a1aa1f75443c744c
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: server-side, HTML-embedded scripting language (metapackage)
+ This package is a metapackage that, when installed, guarantees that you
+ have at least one of the four server-side versions of the PHP interpreter
+ installed. Removing this package won't remove PHP from your system, however
+ it may remove other packages that depend on this one.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.4-cli
+Source: php8.4
+Version: 8.4.7-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 5937
+Depends: libedit2 (>= 2.11-20080614-4), media-types | mime-support, php8.4-common (= 8.4.7-1+ubuntu20.04.1+deb.sury.org+1), php8.4-opcache, php8.4-readline, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.30), libpcre2-8-0 (>= 10.38), libsodium23 (>= 1.0.18), libssl1.1 (>= 1.1.1), libxml2 (>= 2.9.4), zlib1g (>= 1:1.1.4)
+Suggests: php-pear
+Provides: php-cli, php-json, php8.4-json, phpapi-20240924
+Filename: ./php8.4-cli_8.4.7-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 1811248
+MD5sum: 7ba3e7bd2c9a855fb973877b41cbba7f
+SHA1: 3fc8265ac8c635b2c71568107a470bd592ce746e
+SHA256: 1d78608f2eb040071f74ee075dd9b3b9f5c1e3ca154a05bf548f035e40f32d9d
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: command-line interpreter for the PHP scripting language
+ This package provides the /usr/bin/php8.4 command interpreter, useful for
+ testing PHP scripts from a shell or performing general shell scripting tasks.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcntl pcre random Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.4-common
+Source: php8.4
+Version: 8.4.7-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 9985
+Depends: php-common (>= 2:95~), ucf, libc6 (>= 2.27), libffi7 (>= 3.3~20180313), libssl1.1 (>= 1.1.0)
+Breaks: gforge-common (<< 6), php7.0-curl (<< 7.0.33-1~), php7.2-sodium (<< 7.2.12~)
+Provides: php-calendar, php-ctype, php-exif, php-ffi, php-fileinfo, php-ftp, php-iconv, php-pdo, php-phar, php-posix, php-shmop, php-sockets, php-sysvmsg, php-sysvsem, php-sysvshm, php-tokenizer, php8.4-calendar, php8.4-ctype, php8.4-exif, php8.4-ffi, php8.4-fileinfo, php8.4-ftp, php8.4-gettext, php8.4-iconv, php8.4-pdo, php8.4-phar, php8.4-posix, php8.4-shmop, php8.4-sockets, php8.4-sysvmsg, php8.4-sysvsem, php8.4-sysvshm, php8.4-tokenizer
+Filename: ./php8.4-common_8.4.7-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 757500
+MD5sum: 23c995b601f2e496e9637eefc4473b7f
+SHA1: 37bb95e07dd40c41b71acd101edb1471da0a0975
+SHA256: 3d1906829f6ca2597b325ab68e4f0f697c4e4abf4d821ee9089e9837839d06c6
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: documentation, examples and common module for PHP
+ This package provides the documentation, examples and common module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.4-opcache
+Source: php8.4
+Version: 8.4.7-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 1170
+Depends: php-common (>= 2:95~), ucf, php8.4-common (= 8.4.7-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.27), libgcc-s1 (>= 3.3)
+Provides: php-opcache
+Filename: ./php8.4-opcache_8.4.7-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 435352
+MD5sum: 840cf09f5f77ed89db7f415743fd6701
+SHA1: 5f9551ee0248e2c5db131c31365a6bd6a324b5bd
+SHA256: 937db6555a67ebdbce308336a385ea35fca93b82d889dfd0040395aaf5d63bf4
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: Zend OpCache module for PHP
+ This package provides the Zend OpCache module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.4-readline
+Source: php8.4
+Version: 8.4.7-1+ubuntu20.04.1+deb.sury.org+1
+Architecture: amd64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 68
+Depends: php-common (>= 2:95~), ucf, php8.4-common (= 8.4.7-1+ubuntu20.04.1+deb.sury.org+1), libc6 (>= 2.14), libedit2 (>= 3.1-20160903-0)
+Provides: php-readline
+Filename: ./php8.4-readline_8.4.7-1+ubuntu20.04.1+deb.sury.org+1_amd64.deb
+Size: 13080
+MD5sum: e778bc6f8afc33b25fc47003211d4a56
+SHA1: 634899ae56d3b853d539a7bab6514e06507fd199
+SHA256: f9aa566a3fdeda824d1537095716059037848dbf0e87fd82f937a58fba3cef2e
+Section: php
+Priority: optional
+Homepage: http://www.php.net/
+Description: readline module for PHP
+ This package provides the readline module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+

@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/unfccc-ppa.gpg] https://unfccc.github.io/ppa/ubuntu/focal ./
